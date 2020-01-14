@@ -276,8 +276,8 @@ extension UpcomingMoviesViewController {
     
     struct Constants {
         
-        static let Title = NSLocalizedString("upcomingMoviesTabBarTitle", comment: "")
-        static let NavigationItemTitle = NSLocalizedString("upcomingMoviesTitle", comment: "")
+        static let Title = NSLocalizedString("popularMoviesTabBarTitle", comment: "")
+        static let NavigationItemTitle = NSLocalizedString("popularMovieTitle", comment: "")
 
         static let previewCellHeight: Double = 150.0
         

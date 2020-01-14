@@ -29,7 +29,7 @@ class CatergoriesMoviesViewController: UIViewController, Storyboarded, SegueHand
     private func setupUI() {
         title = Constants.Title
         setupNavigationBar()
-        setupSearchController()
+//        setupSearchController()
     }
     
     private func setupNavigationBar() {

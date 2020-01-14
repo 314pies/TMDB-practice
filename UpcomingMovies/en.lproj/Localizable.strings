@@ -6,8 +6,8 @@
   Copyright © 2018 Alonso. All rights reserved.
 */
 
-"upcomingMoviesTabBarTitle" = "Upcoming";
-"upcomingMoviesTitle" = "Upcoming movies";
+"popularMoviesTabBarTitle" = "Hot";
+"popularMovieTitle" = "Popular movies";
 
 "searchMoviesTabBarTitle" = "Search";
 
