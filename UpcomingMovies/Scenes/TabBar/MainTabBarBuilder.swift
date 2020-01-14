@@ -20,14 +20,17 @@ class MainTabBarBuilder {
         let searchMoviesVC = SearchMoviesViewController.instantiate()
         searchMoviesVC.viewModel = SearchMoviesViewModel(useCaseProvider: useCaseProvider)
         
+        let searchMoviesVC2 = SearchMoviesViewController.instantiate()
+        searchMoviesVC2.viewModel = SearchMoviesViewModel(useCaseProvider: useCaseProvider)
+        
         let accountVC = AccountViewController.instantiate()
         accountVC.viewModel = AccountViewModel(useCaseProvider: useCaseProvider)
         
         return [
             createNavigationController(upcomingMoviesVC, title: "Hot", image: #imageLiteral(resourceName: "Movies")),
             createNavigationController(searchMoviesVC, title: "Catergories", image: #imageLiteral(resourceName: "SimilarMovies")),
-            createNavigationController(searchMoviesVC, title: "Search", image: #imageLiteral(resourceName: "Search"))
-            //            createNavigationController(accountVC, title: "Account", image: #imageLiteral(resourceName: "Account"))
+//            createNavigationController(searchMoviesVC2, title: "Search", image: #imageLiteral(resourceName: "Search"))
+            //createNavigationController(accountVC, title: "Account", image: #imageLiteral(resourceName: "Account"))
         ]
     }
     
