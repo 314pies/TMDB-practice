@@ -1,0 +1,6 @@
+framework module Pods_NetworkInfrastructure {
+  umbrella header "Pods-NetworkInfrastructure-umbrella.h"
+
+  export *
+  module * { export * }
+}
