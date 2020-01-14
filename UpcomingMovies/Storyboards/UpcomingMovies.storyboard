@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Upcoming movies-->
+        <!--Populars movies-->
         <scene sceneID="8j3-pf-oBs">
             <objects>
                 <viewController storyboardIdentifier="UpcomingMoviesViewController" id="EZU-as-DXw" customClass="UpcomingMoviesViewController" customModule="UpcomingMovies" customModuleProvider="target" sceneMemberID="viewController">
@@ -37,7 +37,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fkc-0u-one"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Upcoming movies" id="FBi-9u-wKu">
+                    <navigationItem key="navigationItem" title="Populars movies" id="FBi-9u-wKu">
                         <barButtonItem key="backBarButtonItem" title=" " id="1uH-Ge-Gt9"/>
                         <barButtonItem key="leftBarButtonItem" image="List" id="JjA-67-2z8" userLabel="Toggle Grid Bar Button Item">
                             <connections>
