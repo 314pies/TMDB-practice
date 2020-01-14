@@ -197,8 +197,8 @@ extension CatergoriesMoviesViewController {
     
     struct Constants {
         
-        static let Title = NSLocalizedString("searchMoviesTabBarTitle", comment: "")
-        static let NavigationItemTitle = NSLocalizedString("searchMoviesTitle", comment: "")
+        static let Title = NSLocalizedString("CategoriesTabBarTitle", comment: "")
+        static let NavigationItemTitle = NSLocalizedString("CategoriesTitle", comment: "")
         
         static let noRecentSearchText = "No recent searches to show."
         

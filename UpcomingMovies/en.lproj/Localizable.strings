@@ -10,9 +10,14 @@
 "upcomingMoviesTitle" = "Upcoming movies";
 
 "searchMoviesTabBarTitle" = "Search";
+
 "searchMoviesTitle" = "Search movies";
 "recentSearches" = "Recent searches";
 "emptySearchResults" = "No results to show.";
+
+"CategoriesTitle" = "Categories";
+"CategoriesTabBarTitle" = "Categories";
+
 
 "recentlyVisitedSeearchSectionTitle" = "Recently visited";
 "movieGenresSearchSectionTitle" = "Movie genres";
